@@ -1,0 +1,40 @@
+@media (max-width:1600px) {
+  .section-hero__description {
+    max-width: 560px;
+  }
+}
+
+@media (max-width:1200px) {
+
+  .section-hero__container,
+  .section-do,
+  .section-clients,
+  .section-contacts,
+  .section-form {
+    padding-top: 55px;
+    padding-bottom: 60px;
+  }
+
+  .section-hero__heading {
+    font-size: 36px;
+  }
+
+  .section-hero__description {
+    margin: 20px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width:1118px) {
+  .section-hero__heading {
+    max-width: 650px;
+  }
+
+  .section-do-item-heading {
+    text-align: center;
+  }
+
+  .section-do-item-heading_br {
+    display: block;
+  }
+}
